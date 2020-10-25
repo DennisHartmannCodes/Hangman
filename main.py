@@ -27,7 +27,6 @@ def PlayGame():
   
   while (CurrentLives > 0):
     print("Lives: " + str(CurrentLives))
-    #print(word)
     print(userWord)
     print("Guessed letters" + str(GuessedLetters))
     value = (input("Please enter a letter:\n")).lower()
